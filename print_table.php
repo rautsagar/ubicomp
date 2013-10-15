@@ -5,7 +5,7 @@
 
 	<title>DBIT Ubicomp | Home</title>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />	
+	<meta charset="UTF-8" />	
 	<meta http-equiv="content-language" content="en-US" />	
 	
 

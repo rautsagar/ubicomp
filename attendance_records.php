@@ -5,7 +5,7 @@
 
 <title>DBIT Ubicomp | Attendance Records</title>
 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta charset="UTF-8" />
 <meta name="description" content="Ubiquitous computing in a lab environment" />
 
 <meta http-equiv="imagetoolbar" content="no" />

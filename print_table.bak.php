@@ -4,7 +4,7 @@
 
 <title>DBIT Ubicomp | Attendance Records</title>
 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta charset="UTF-8" />
 <meta name="description" content="Professional Portrait and Landscape Photography servicing Alabama and Mississippi." />
 <meta name="keywords" content="ubiquitous computing, ubicomp, lab automation, ubicomp in a lab" />
 <meta http-equiv="imagetoolbar" content="no" />

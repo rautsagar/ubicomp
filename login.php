@@ -14,7 +14,7 @@ if(isset($_POST['del_cookie'])){
 
 	<title>DBIT Ubicomp | Home</title>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta charset="UTF-8" />
 	<meta name="description" content="Ubiquitous computing in a lab environment" />
 	<meta name="keywords" content="ubiquitous computing, ubicomp, lab automation, ubicomp in a lab" />
 	<meta http-equiv="imagetoolbar" content="no" />
