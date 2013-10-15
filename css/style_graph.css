@@ -1,0 +1,48 @@
+
+#graph_container{
+position:relative;
+background: rgb(186, 227, 255); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(186, 227, 255, .5);
+	width:100%;
+	padding:10px;
+	margin-top:35px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+
+#graph{
+
+position:relative;
+margin-top:15px;
+margin-left:75px;
+
+}
+
+#button{
+position:relative;
+
+background:url("../images/button/inactive.png");
+width:150px;
+height:50px;
+margin: 10px auto;
+}
+
+#button:hover{
+background:url("../images/button/hover.png");
+}
+
+#button:active{
+background:url("../images/button/active.png");
+}
+#graphFooter_wrapper{
+position:relative;
+
+
+width:610px;
+
+margin: 10px auto;
+}
+
+
