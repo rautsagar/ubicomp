@@ -4,3 +4,7 @@
 *.class
 *.pyc
 *.pyo
+
+
+# Gedit Autosave files
+*~
