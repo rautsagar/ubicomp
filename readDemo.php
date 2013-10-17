@@ -1,5 +1,5 @@
 <?php
-
+//This file reads data from a txt file, which contains the readings from the passive infrared sensor, and inserts it into teh database
 require_once './db_conn.php';
 
 $log = file('data_dumps/log27-2.txt', true);

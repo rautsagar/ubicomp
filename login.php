@@ -1,13 +1,12 @@
+<!-- Delete cookie, done when logging out -->
 <?
-if(isset($_POST['del_cookie'])){
+if (isset($_POST['del_cookie'])) {
 	//echo "entered if";
-	setcookie('uname','',time()-3600,'/');
-	
-	
+	setcookie('uname', '', time() - 3600, '/');
+
 }
-
-
 ?>
+
 <!DOCTYPE html >
 <html lang="en" >
 <head>
@@ -23,12 +22,11 @@ if(isset($_POST['del_cookie'])){
 	
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script>
-		$(document).ready(function(){
-	$("#current_page_name").html(" Login page");
-	$("#user_icon").hide();
+		$(document).ready(function() {
+			$("#current_page_name").html(" Login page");
+			$("#user_icon").hide();
 
-
-});
+		});
 
 	</script>
 
@@ -38,6 +36,7 @@ if(isset($_POST['del_cookie'])){
 
 </head>
 <body>
+	<!-- load the topbar containing page information, user info and logout button -->
 	<div id="header"><? include 'topbar.php'?></div>
 	<div id="container">
 		<div id="login-top">

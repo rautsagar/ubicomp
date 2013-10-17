@@ -1,4 +1,6 @@
-<?php include 'login_redirect.php'; ?>
+<?php
+include 'login_redirect.php';
+ ?>
 <!DOCTYPE html >
 <html lang="en" >
 <head>
@@ -14,22 +16,21 @@
 	
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script>
-		$(document).ready(function(){
+		$(document).ready(function() {
 			$("#current_page_name").html(" Home");
 		});
 		
-		function del_cookie()
-			{
-				$.ajax({
-				  type: 'post',
-				  url: 'login.php',
-				  data: 'del_cookie=True',
-				  success: function(data){
-				  	// alert(data);
-                    window.location = "login.php";
-  }
-});
-			}
+		function del_cookie() {
+			$.ajax({
+				type : 'post',
+				url : 'login.php',
+				data : 'del_cookie=True',
+				success : function(data) {
+					// alert(data);
+					window.location = "login.php";
+				}
+			});
+		}
 	</script>
 
 	<link rel="stylesheet" type="text/css" href="css/styles2.css" media="screen" />
